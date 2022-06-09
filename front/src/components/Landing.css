@@ -1,0 +1,283 @@
+/*
+border: 1px solid grey;
+*/
+
+
+@media only screen and (max-width: 1920px) {
+
+    .first-container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .left-side {
+        background-color: #131313;
+        width: 55%;
+        height: 861px;
+        padding: 50px;
+    }
+
+    .contact-me {
+        display: flex;
+        color: white
+    }
+
+    .code-icon {
+        width: 5%;
+        margin-right: 20px;
+    }
+
+
+    .contact-me-button {
+        font-size: 130%;
+        text-decoration: none;
+        color: white
+    }
+
+    .a-line {
+        /* FALTA HACER QUE ESTE AL COSTADO IZQUIERDO */
+        width: 70%;
+        background-color: #3C3AAC;
+        height: 3px;
+        border: none;
+    }
+
+    .a-tag:hover>.a-line {
+        width: 120%;
+        transition: 200ms ease-in-out;
+
+    }
+
+    .container-name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 88%;
+    }
+
+    .title-name {
+        color: white;
+        height: 40%;
+        width: 50%;
+    }
+
+    .name {
+        font-size: 300%;
+        margin-bottom: -20px;
+    }
+
+    .job {
+        font-size: 200%;
+    }
+
+    .name-line {
+        /* FALTA HACER QUE ESTE AL COSTADO IZQUIERDO */
+        width: 80%;
+        background-color: #3C3AAC;
+        height: 4px;
+        border: none;
+    }
+
+    .title-name:hover>.name-line {
+        width: 100%;
+        transition: 0.2s ease-in-out;
+    }
+
+    .right-side {
+        width: 45%;
+    }
+
+    .buttons-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+
+    .svg-button{
+        width: 8%;
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+
+    .svg-icon{
+        fill: black;
+    }
+
+    .projectsname-container{
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height:70%;
+    }
+
+    .left-angle{
+        width: 5%;
+        margin-right: 20px;
+        fill: white;
+    }
+
+    .projects-title{
+        font-size: 300%;
+        color: black;
+    }
+
+    .right-angle{
+        width: 5%;
+        margin-left: 20px;
+        fill: white;
+    }
+
+    .projectsname-container:hover > .right-angle{
+        margin-left: 50px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .projectsname-container:hover > .left-angle{
+        margin-right: 50px;
+        transition: 0.2s ease-in-out;
+    }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SCREEN 1366x768 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+@media only screen and (max-width: 1368px) {
+    .first-container{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .left-side {
+        background-color: #131313;
+        width: 55%;
+        height: 549px;
+        padding: 50px;
+    }
+
+    .contact-me {
+        display: flex;
+        color: white
+    }
+
+    .code-icon {
+        width: 5%;
+        margin-right: 20px;
+    }
+
+    .contact-me-button {
+        font-size: 120%;
+        text-decoration: none;
+        color: white
+    }
+
+    .a-line {        /* FALTA HACER QUE ESTE AL COSTADO IZQUIERDO */
+        width: 70%;
+        background-color: #3C3AAC;
+        height: 3px;
+        border: none;
+    }
+
+    .a-tag:hover>.a-line {
+        width: 120%;
+        transition: 200ms ease-in-out;
+    }
+
+    .container-name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 88%;
+    }
+
+    .title-name {
+        color: white;
+        height: 40%;
+        width: 50%;
+    }
+
+    .name {
+        font-size: 250%;
+        margin-bottom: -20px;
+    }
+
+    .job {
+        font-size: 150%;
+    }
+
+    .name-line {        /* FALTA HACER QUE ESTE AL COSTADO IZQUIERDO */
+        width: 80%;
+        background-color: #3C3AAC;
+        height: 4px;
+        border: none;
+    }
+
+    .title-name:hover > .name-line {
+        width: 120%;
+        transition: 0.2s ease-in-out;
+    }
+
+    .right-side {
+        width: 45%;
+    }
+
+    .buttons-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+
+    .svg-button{
+        width: 8%;
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        margin-left: 4px;
+        cursor: pointer;
+    }
+
+    .svg-icon{
+        fill: black;
+    }
+
+    .projectsname-container{
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height:70%;
+    }
+
+    .left-angle{
+        width: 5%;
+        margin-right: 20px;
+        fill: white;
+    }
+
+    .projects-title{
+        font-size: 300%;
+        color: black;
+    }
+
+    .right-angle{
+        width: 5%;
+        margin-left: 20px;
+        fill: white;
+    }
+
+    .projectsname-container:hover > .right-angle{
+        margin-left: 50px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .projectsname-container:hover > .left-angle{
+        margin-right: 50px;
+        transition: 0.2s ease-in-out;
+    }
+}
