@@ -1,11 +1,12 @@
 import './App.css';
-import Landing from './components/Landing.js';
+import React from 'react';
 
-function App() {
+/* Import pages */
+import LandingPage from './pages/LandingPage';
+
+const App = () => {
   return (
-    <div className="App">
-      <Landing/>
-    </div>
+    <LandingPage/>
   );
 }
 

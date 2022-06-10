@@ -1,0 +1,28 @@
+
+@media only screen and (max-width: 1920px) {
+    .second-container {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 1368px) {
+    .second-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+        height: 549px;
+    }
+
+    .left-side-aboutme {
+        width: 55%;
+        height: 861px;
+        padding: 50px;
+    }
+
+    .right-side-aboutme{
+        background-color: #131313;
+        width: 45%;
+        
+    }
+}
