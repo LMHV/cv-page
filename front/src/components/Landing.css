@@ -8,12 +8,12 @@ border: 1px solid grey;
     .first-container {
         display: flex;
         flex-direction: row;
+        height: 969px;
     }
 
     .left-side {
         background-color: #131313;
         width: 55%;
-        height: 861px;
         padding: 50px;
         border-right: 3px solid #3C3AAC;
     }
@@ -158,12 +158,12 @@ border: 1px solid grey;
     .first-container {
         display: flex;
         flex-direction: row;
+        height: 657px;
     }
 
     .left-side {
         background-color: #131313;
         width: 55%;
-        height: 549px;
         padding: 50px;
     }
 

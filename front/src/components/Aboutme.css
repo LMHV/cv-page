@@ -11,7 +11,7 @@
         display: flex;
         flex-direction: row;
         margin-top: 100px;
-        height: 549px;
+        height: 657px;
     }
 
     .left-side-aboutme {
@@ -19,6 +19,47 @@
         height: 861px;
         padding: 50px;
     }
+
+    .aboutme-container{
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        justify-content: center;
+        width: 100%;
+        border: 1px solid black;
+    }
+
+    .aboutme-title{
+        color: white;
+        font-size: 200%;
+        margin-bottom: -5px;   
+    }
+    .aboutme-line{
+        width: 20%;
+        background-color: #3C3AAC;
+        height: 3px;
+        border: none;
+    }
+
+    .aboutme-container:hover > .aboutme-line{
+        width: 35%;
+        transition: 0.2s ease-in-out;
+    }
+
+    .aboutme-description{
+        height: 40%;
+        margin-top: 20px;
+        border: 1px solid grey;
+    }
+
+
+
+
+
+
+
+
+
 
     .right-side-aboutme{
         background-color: #131313;
