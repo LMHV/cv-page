@@ -1,9 +1,116 @@
-
 @media only screen and (max-width: 1920px) {
     .second-container {
         display: flex;
         flex-direction: row;
+        margin-top: 100px;
+        height: 969px;
     }
+
+    .left-side-aboutme {
+        width: 55%;
+        padding: 50px;
+    }
+
+    .aboutme-container {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .aboutme-title {
+        color: white;
+        font-size: 250%;
+        margin-bottom: -5px;
+        position: relative;
+    }
+
+    .aboutme-title::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        width: 100%;
+        height: 2px;
+        background-color: #3C3AAC;
+        transform: scaleX(1.4);
+        transform-origin: right;
+        transition: transform .5s;
+    }
+
+    .aboutme-title:hover::after {
+        transform: scaleX(0.7);
+        transform-origin: right;
+    }
+
+    .aboutme-description {
+        height: 70%;
+        margin-top: 20px;
+        padding: 20px;
+        font-size: 200%;
+        color: white;
+    }
+
+
+
+    .right-side-aboutme {
+        background-color: #131313;
+        width: calc(45% - 100px);
+        display: grid;
+        grid-template-columns: 30px auto 30px;
+        column-gap: 30px;
+        padding: 50px;
+        position: relative;
+    }
+
+    #grid1{
+        position: relative;
+    }
+
+    #grid1::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 3px;
+        height: 100%;
+        background-color: #3C3AAC;
+        transform: scaleY(0.3);
+        transform-origin: bottom;
+        transition: transform .5s;
+    }
+
+    #grid1:hover::after {
+        transform: scaleY(1);
+        transform-origin: bottom;
+    }
+
+
+    #grid2{
+        background-color: white;
+    }
+
+    #grid3{
+        position: relative;
+    }
+
+    #grid3::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 3px;
+        height: 100%;
+        background-color: #3C3AAC;
+        transform: scaleY(0.3);
+        transform-origin: top;
+        transition: transform .5s;
+    }
+
+    #grid3:hover::after {
+        transform: scaleY(1);
+        transform-origin: top;
+    }
+    
 }
 
 @media only screen and (max-width: 1368px) {
@@ -16,54 +123,108 @@
 
     .left-side-aboutme {
         width: 55%;
-        height: 861px;
         padding: 50px;
     }
 
-    .aboutme-container{
+    .aboutme-container {
         display: flex;
-        flex-direction: column;
-        text-align: right;
-        justify-content: center;
+        justify-content: flex-end;
         width: 100%;
-        border: 1px solid black;
     }
 
-    .aboutme-title{
+    .aboutme-title {
         color: white;
         font-size: 200%;
-        margin-bottom: -5px;   
+        margin-bottom: -5px;
+        position: relative;
     }
-    .aboutme-line{
-        width: 20%;
+
+    .aboutme-title::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        width: 100%;
+        height: 2px;
         background-color: #3C3AAC;
-        height: 3px;
-        border: none;
+        transform: scaleX(1.4);
+        transform-origin: right;
+        transition: transform .5s;
     }
 
-    .aboutme-container:hover > .aboutme-line{
-        width: 35%;
-        transition: 0.2s ease-in-out;
+    .aboutme-title:hover::after {
+        transform: scaleX(0.7);
+        transform-origin: right;
     }
 
-    .aboutme-description{
-        height: 40%;
+    .aboutme-description {
+        height: 70%;
         margin-top: 20px;
-        border: 1px solid grey;
+        padding: 20px;
+        font-size: 120%;
+        color: white;
     }
 
 
 
-
-
-
-
-
-
-
-    .right-side-aboutme{
+    .right-side-aboutme {
         background-color: #131313;
-        width: 45%;
-        
+        width: calc(45% - 100px);
+        display: grid;
+        grid-template-columns: 30px auto 30px;
+        column-gap: 30px;
+        padding: 50px;
+        position: relative;
     }
+
+    #grid1{
+        position: relative;
+    }
+
+    #grid1::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 3px;
+        height: 100%;
+        background-color: #3C3AAC;
+        transform: scaleY(0.3);
+        transform-origin: bottom;
+        transition: transform .5s;
+    }
+
+    #grid1:hover::after {
+        transform: scaleY(1);
+        transform-origin: bottom;
+    }
+
+
+    #grid2{
+        background-color: white;
+    }
+
+    #grid3{
+        position: relative;
+    }
+
+    #grid3::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 3px;
+        height: 100%;
+        background-color: #3C3AAC;
+        transform: scaleY(0.3);
+        transform-origin: top;
+        transition: transform .5s;
+    }
+
+    #grid3:hover::after {
+        transform: scaleY(1);
+        transform-origin: top;
+    }
+    
+
 }

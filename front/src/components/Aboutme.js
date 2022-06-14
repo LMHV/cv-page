@@ -10,7 +10,6 @@ const Aboutme = () => {
             <div className="left-side-aboutme">
                 <div className="aboutme-container">
                     <h2 className="aboutme-title">About me</h2>
-                    <hr className="aboutme-line"></hr>
 
                 </div>
                 <div className="aboutme-description">
@@ -20,7 +19,11 @@ const Aboutme = () => {
             </div>
 
             <div className="right-side-aboutme">
-
+                <div id='grid1'></div>
+                <div id='grid2'>
+                    <img></img>
+                </div>
+                <div id='grid3'></div>
             </div>
 
         </div>

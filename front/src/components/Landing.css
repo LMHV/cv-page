@@ -15,7 +15,6 @@ border: 1px solid grey;
         background-color: #131313;
         width: 55%;
         padding: 50px;
-        border-right: 3px solid #3C3AAC;
     }
 
     .contact-me {
@@ -32,34 +31,56 @@ border: 1px solid grey;
     .contact-me-button {
         font-size: 130%;
         text-decoration: none;
-        color: white
+        color: white;
+        position: relative;
     }
 
-    .a-line {
-        /* FALTA HACER QUE ESTE AL COSTADO IZQUIERDO */
-        width: 70%;
+    .contact-me-button::after{
+        content:'';
+        position:absolute;
+        left: 0; bottom: -5px;
+        width: 100%;
+        height: 2px;
         background-color: #3C3AAC;
-        height: 3px;
-        border: none;
+        transform: scaleX(0.7);
+        transform-origin: left;
+        transition: transform .5s;
     }
 
-    .a-tag:hover>.a-line {
-        width: 120%;
-        transition: 200ms ease-in-out;
-
+    .contact-me-button:hover::after{
+        transform: scaleX(1.2);
+        transform-origin: left;
     }
 
     .container-name {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 88%;
+        height: 80%;
     }
 
     .title-name {
         color: white;
-        height: 40%;
+        height: 30%;
         width: 60%;
+        position: relative;
+    }
+
+    .title-name::after{
+        content:'';
+        position:absolute;
+        left: 0; bottom: -10px;
+        width: 100%;
+        height: 3px;
+        background-color: #3C3AAC;
+        transform: scaleX(0.70);
+        transform-origin: left;
+        transition: transform .5s;
+    }
+
+    .title-name:hover::after{
+        transform: scaleX(1.1);
+        transform-origin: left;
     }
 
     .name {
@@ -69,19 +90,6 @@ border: 1px solid grey;
 
     .job {
         font-size: 200%;
-    }
-
-    .name-line {
-        /* FALTA HACER QUE ESTE AL COSTADO IZQUIERDO */
-        width: 80%;
-        background-color: #3C3AAC;
-        height: 4px;
-        border: none;
-    }
-
-    .title-name:hover>.name-line {
-        width: 100%;
-        transition: 0.2s ease-in-out;
     }
 
     .right-side {
@@ -97,10 +105,10 @@ border: 1px solid grey;
     }
 
     .svg-button {
-        width: 8%;
+        width: 6.5%;
         background-color: rgba(0, 0, 0, 0);
         border: none;
-        margin-left: 5px;
+        margin-left: 0px;
         cursor: pointer;
     }
 
@@ -142,12 +150,12 @@ border: 1px solid grey;
     }
 
     .projectsname-container:hover>.right-angle {
-        margin-left: 50px;
+        margin-left: 100px;
         transition: 0.2s ease-in-out;
     }
 
     .projectsname-container:hover>.left-angle {
-        margin-right: 50px;
+        margin-right: 100px;
         transition: 0.2s ease-in-out;
     }
 }
@@ -180,33 +188,56 @@ border: 1px solid grey;
     .contact-me-button {
         font-size: 120%;
         text-decoration: none;
-        color: white
+        color: white;
+        position: relative;
     }
 
-    .a-line {
-        /* FALTA HACER QUE ESTE AL COSTADO IZQUIERDO */
-        width: 70%;
+    .contact-me-button::after{
+        content:'';
+        position:absolute;
+        left: 0; bottom: -5px;
+        width: 100%;
+        height: 2px;
         background-color: #3C3AAC;
-        height: 3px;
-        border: none;
+        transform: scaleX(0.7);
+        transform-origin: left;
+        transition: transform .5s;
     }
 
-    .a-tag:hover>.a-line {
-        width: 120%;
-        transition: 200ms ease-in-out;
+    .contact-me-button:hover::after{
+        transform: scaleX(1.2);
+        transform-origin: left;
     }
 
     .container-name {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 88%;
+        height: 90%;
     }
-
+    
     .title-name {
         color: white;
-        height: 50%;
+        height: 35%;
         width: 70%;
+        position: relative;
+    }
+
+    .title-name::after{
+        content:'';
+        position:absolute;
+        left: 0; bottom: -15px;
+        width: 100%;
+        height: 3px;
+        background-color: #3C3AAC;
+        transform: scaleX(0.64);
+        transform-origin: left;
+        transition: transform .5s;
+    }
+
+    .title-name:hover::after{
+        transform: scaleX(1);
+        transform-origin: left;
     }
 
     .name {
@@ -216,19 +247,6 @@ border: 1px solid grey;
 
     .job {
         font-size: 200%;
-    }
-
-    .name-line {
-        /* FALTA HACER QUE ESTE AL COSTADO IZQUIERDO */
-        width: 80%;
-        background-color: #3C3AAC;
-        height: 4px;
-        border: none;
-    }
-
-    .title-name:hover>.name-line {
-        width: 120%;
-        transition: 0.2s ease-in-out;
     }
 
     .right-side {
