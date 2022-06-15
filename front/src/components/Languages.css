@@ -1,0 +1,111 @@
+.vertical-grid {
+    display: grid;
+    grid-template-rows: 100px 860px 100px;
+}
+
+.vertical-1 {
+    background: linear-gradient(#1B1A29, #131313);
+}
+
+.horizontal-grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.column-container {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.column-container:hover .child,
+.column-container:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.column-container:hover .child:before,
+.column-container:focus .child:before {
+    display: block;
+}
+
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.python{
+    background-image: url(../images/pythonImg.jfif);
+    display: flex;
+    justify-content: center;
+}
+
+#pythonSVG{
+    width: 35%;
+    stroke: #000000;
+    stroke-width: 6px;
+    fill: #095ef0 ;
+}
+
+.javascript{
+    background-image: url(../images/javascriptImg.jfif);
+    display: flex;
+    justify-content: center;
+}
+
+#javascriptSVG{
+    width: 35%;
+    stroke: #000000;
+    stroke-width: 6px;
+    fill: #ffe100 ;
+}
+
+.react{
+    background-image: url(../images/reactImg.jfif);
+    display: flex;
+    justify-content: center;
+}
+
+#reactSVG{
+    width: 35%;
+    stroke: #000000;
+    stroke-width: 6px;
+    fill: #36bcfa ;
+}
+
+.node{
+    background-image: url(../images/nodeImg.jfif);
+    display: flex;
+    justify-content: center;
+}
+
+#nodeSVG{
+    width: 35%;
+    stroke: #000000;
+    stroke-width: 6px;
+    fill: #145c13 ;
+}
+
+.vertical-3 {
+    background: linear-gradient(#131313, #1B1A29);
+}

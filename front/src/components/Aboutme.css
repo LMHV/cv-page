@@ -54,11 +54,11 @@
 
     .right-side-aboutme {
         background-color: #131313;
-        width: calc(45% - 100px);
+        width: calc(45% - 200px);
         display: grid;
         grid-template-columns: 30px auto 30px;
         column-gap: 30px;
-        padding: 50px;
+        padding: 100px;
         position: relative;
     }
 
@@ -109,6 +109,12 @@
     #grid3:hover::after {
         transform: scaleY(1);
         transform-origin: top;
+    }
+
+    #myselfImg{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
     
 }
@@ -226,5 +232,10 @@
         transform-origin: top;
     }
     
+    #myselfImg{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 
 }

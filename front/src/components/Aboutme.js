@@ -21,7 +21,7 @@ const Aboutme = () => {
             <div className="right-side-aboutme">
                 <div id='grid1'></div>
                 <div id='grid2'>
-                    <img></img>
+                    <img id='myselfImg' alt='myself' src={require('../images/myself.jpg')}></img>
                 </div>
                 <div id='grid3'></div>
             </div>
