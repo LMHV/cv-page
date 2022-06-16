@@ -2,4 +2,24 @@ body {
     background-color: #1B1A29;
     margin: auto;
     font-family: Shippori Antique B1;
+    
 }
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: linear-gradient(#131313,#141338);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(#626262,#424242);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3C3AAC;
+  }
