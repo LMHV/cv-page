@@ -3,6 +3,7 @@
     .vertical-grid {
         display: grid;
         grid-template-rows: 100px 860px 100px;
+        background-color: #000000;
     }
     
     .vertical-1 {
@@ -11,7 +12,8 @@
     
     .horizontal-grid {
         display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-columns: 25% 25% 25% 24.55%;
+        column-gap: 3px;
     }
     
     .column-container {
