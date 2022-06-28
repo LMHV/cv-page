@@ -2,7 +2,7 @@
     margin: 100px;
     background-color: #131313;
     display: grid;
-    grid-template-rows: 15% 20% 60%;
+    grid-template-rows: 15% 85%;
     row-gap: 30px;
     height: 300px;
     color: white;
@@ -31,21 +31,27 @@
 }
 
 .contact-row-1:hover::after{
-    transform: scaleX(1.2);
+    transform: scaleX(0.3);
     transform-origin: left;
 }
 
 .contact-row-2{
     position: relative;
+    width:50%;
 }
 
 .input{
+    width: 100%;
+    font-size: 120%;
     color: #fff;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.069);
     border: none;
-    border-bottom: 2px solid #fff;
     outline: none;
-    padding-block: 5px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid grey;
+    overflow:scroll;
+    
 }
 
 .input::placeholder {
@@ -53,22 +59,72 @@
     transition: opacity .25s;
 }
 
+
 .input:focus::placeholder{
     opacity: 0;
 }
 
-.border-bottom{
-    position: absolute;
-    left: 0; bottom: 0;
+.input-desc{
+    height: 50px;
     width: 100%;
-    height: 2px;
-    background-color: #3C3AAC;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform .25s;
+    font-size: 120%;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.069);
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid grey;
+    overflow:scroll;
+    
 }
 
-.input:focus + .border-bottom,
-.input:valid + .border-bottom {
-    transform: scaleX(1);
+.input-desc::placeholder {
+    color: rgb(255, 255, 255);
+    transition: opacity .25s;
 }
+
+
+.input-desc:focus::placeholder{
+    opacity: 0;
+}
+
+.button-submit{
+    font-size: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 14px 24px;
+    color: #3C3AAC;
+    border: 2px solid grey;
+    position: relative;
+    transition: 1s;
+    background-color: #131313;
+}
+
+.button-submit:hover{
+    color: rgb(0, 0, 0);
+    background-color: grey;
+}
+
+.button-submitt{
+    display: inline-block;
+    font-size: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 14px 24px;
+    color: #3C3AAC;
+    border: 2px solid grey;
+    overflow: hidden; 
+    position: relative;
+    transition: 1s;
+}
+
+.button-submitt:hover{
+    color: rgb(0, 0, 0);
+    background-color: grey;
+}
+

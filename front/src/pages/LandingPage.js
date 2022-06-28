@@ -17,7 +17,7 @@ const LandingPage = () => {
             <Languages />
             <RSkills />
             <Projects />
-            <Contact text='Email'/>
+            <Contact />
             <Footer />
         </>
     )
