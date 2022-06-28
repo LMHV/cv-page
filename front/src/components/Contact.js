@@ -8,13 +8,9 @@ const Contact = ({text}) => {
             <div className="contact-row-1">Contact me</div>
 
             <div className="contact-row-2">
-                <div className='wrapper'>
-                    <div className='input-data'>
-                        <input type='text' required></input>
-                        <div className='underline'></div>
-                        <label>{text}</label>
-                    </div>
-                </div></div>
+                <input type='text' placeholder="Email" className='input' required></input>
+                <span className="border-bottom"></span>
+            </div>
             <div className="contact-row-3">Tell me what are your thoughts</div>
         </div>
     )
