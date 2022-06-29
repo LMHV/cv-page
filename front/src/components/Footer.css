@@ -1,6 +1,55 @@
+@media only screen and (max-width: 1920px) {
+    .footer-container{
+        width: 100%;
+        height: 70px;
+        background-color: #131313;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+    
+    .footer-col-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 130%;
+        color: white;
+    }
+    
+    .footer-col-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+    }
+    
+    .svg-button-footer {
+        width: 8%;
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        margin-left: 0px;
+        cursor: pointer;
+    }
+    .svg-icon-footer {
+        fill: rgb(255, 255, 255);
+    }
+    .svg-icon-footer:hover{
+        fill:rgb(89, 89, 89);
+    }
+    
+    .footer-col-3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 110%;
+        color: white;  
+    }
+}
+
+@media only screen and (max-width: 1368px) {
+
 .footer-container{
     width: 100%;
-    height: 80px;
+    height: 55px;
     background-color: #131313;
     margin-top: 50px;
     display: grid;
@@ -11,7 +60,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 130%;
+    font-size: 120%;
     color: white;
 }
 
@@ -22,7 +71,7 @@
 }
 
 .svg-button-footer {
-    width: 8%;
+    width: 9%;
     background-color: rgba(0, 0, 0, 0);
     border: none;
     margin-left: 0px;
@@ -39,6 +88,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 130%;
+    font-size: 110%;
     color: white;  
+}
+
 }
