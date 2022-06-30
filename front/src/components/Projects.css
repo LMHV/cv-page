@@ -1,7 +1,68 @@
 @media only screen and (max-width: 1920px) {
     .projects-container{
         height: 800px;
-        border: 1px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .project-img{
+        width: 90%;
+        height: 90%;
+        opacity: 1;
+        transition: 1s;
+    }
+
+    .button-car{
+        font-size: 100%;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 2px;
+        padding: 14px 24px;
+        color: #3C3AAC;
+        border: 2px solid grey;
+        position: relative;
+        transition: 1s;
+        background-color: #131313;
+    }
+    
+    .button-car:hover{
+        color: rgb(0, 0, 0);
+        background-color: grey;
+    }
+    
+    .button-car{
+        display: inline-block;
+        font-size: 100%;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 2px;
+        padding: 14px 24px;
+        color: #3C3AAC;
+        border: 2px solid grey;
+        overflow: hidden; 
+        position: relative;
+        transition: 1s;
+        opacity: 0.7;
+    }
+    
+    .button-car:hover{
+        color: rgb(0, 0, 0);
+        background-color: grey;
+        opacity: 1;
+    }
+    
+    #left-button{
+        position: absolute;
+        left: 10%;
+    }
+
+    #right-button{
+        position: absolute;
+        right: 10%;
     }
 
 }
@@ -10,6 +71,67 @@
 @media only screen and (max-width: 1368px) {
     .projects-container{
         height: 600px;
-        border: 1px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .project-img{
+        width: 90%;
+        height: 90%;
+        opacity: 1;
+        transition: 1s;
+    }
+
+    .button-car{
+        font-size: 100%;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 2px;
+        padding: 14px 24px;
+        color: #3C3AAC;
+        border: 2px solid grey;
+        position: relative;
+        transition: 1s;
+        background-color: #131313;
+    }
+    
+    .button-car:hover{
+        color: rgb(0, 0, 0);
+        background-color: grey;
+    }
+    
+    .button-car{
+        display: inline-block;
+        font-size: 100%;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 2px;
+        padding: 14px 24px;
+        color: #3C3AAC;
+        border: 2px solid grey;
+        overflow: hidden; 
+        position: relative;
+        transition: 1s;
+        opacity: 0.7;
+    }
+    
+    .button-car:hover{
+        color: rgb(0, 0, 0);
+        background-color: grey;
+        opacity: 1;
+    }
+    
+    #left-button{
+        position: absolute;
+        left: 10%;
+    }
+
+    #right-button{
+        position: absolute;
+        right: 10%;
     }
 }
