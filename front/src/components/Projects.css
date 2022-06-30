@@ -1,4 +1,15 @@
-.projects-container{
-    height: 800px;
-    border: 1px solid white;
+@media only screen and (max-width: 1920px) {
+    .projects-container{
+        height: 800px;
+        border: 1px solid white;
+    }
+
+}
+
+
+@media only screen and (max-width: 1368px) {
+    .projects-container{
+        height: 600px;
+        border: 1px solid white;
+    }
 }
