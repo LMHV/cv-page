@@ -5,17 +5,17 @@ const Projects = () => {
 
   const data = [{
     'project_img': 'project-chatbot.jpg',
-    'github-link': '',
+    'github_link': 'https://github.com/LMHV/chatbot-ai',
 
   },
   {
     'project_img': 'project-airbnb.jpg',
-    'github-link': '',
+    'github_link': 'https://github.com/LMHV/react-airbnb',
 
   },
   {
     'project_img': 'project-MERN.jpg',
-    'github-link': '',
+    'github_link': 'https://github.com/LMHV/MERN-stack-project',
 
   }];
 
@@ -31,16 +31,20 @@ const Projects = () => {
   }
 
   const next = () => {
-    const condition = selectedIndex < data.lenght - 1; // TRUE si indice < 2 / FALSE si indice 2
-    const nextIndex = condition ? selectedIndex + 1 : 0; // si TRUE indice + 1 / si FALSE indice 0
+    const nextIndex = selectedIndex < data.length - 1 ? selectedIndex + 1 : 0;
     setSelectedImg(data[nextIndex].project_img)
     setSelectedIndex(nextIndex)
   }
 
+  const imgLink = (e) => {
+    e.preventDefault();
+    window.open(data[selectedIndex].github_link)
+  }
+
   return (
-    <div className='projects-container'>
-      <img className='project-img' alt='carouselImg' src={require(`../images/${selectedImg}`)}></img>
-      
+    <div id='projects' className='projects-container'>
+      <img title='Click to visit GITHUB page' onClick={imgLink} className='project-img' alt='carouselImg' src={require(`../images/${selectedImg}`)}></img>
+
       <button id='left-button' className='button-car' onClick={previous}>previous</button>
       <button id='right-button' className='button-car' onClick={next}>next</button>
     </div>

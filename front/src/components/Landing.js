@@ -10,7 +10,7 @@ const Landing = () => {
                 <div className="contact-me"> 
                     <svg className="code-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M9.372 86.63C-3.124 74.13-3.124 53.87 9.372 41.37C21.87 28.88 42.13 28.88 54.63 41.37L246.6 233.4C259.1 245.9 259.1 266.1 246.6 278.6L54.63 470.6C42.13 483.1 21.87 483.1 9.372 470.6C-3.124 458.1-3.124 437.9 9.372 425.4L178.7 256L9.372 86.63zM544 416C561.7 416 576 430.3 576 448C576 465.7 561.7 480 544 480H256C238.3 480 224 465.7 224 448C224 430.3 238.3 416 256 416H544z" /></svg>
                     <div className="a-tag">
-                        <a className="contact-me-button" href="#">Contact me</a>
+                        <a className="contact-me-button" href="#contact">Contact me</a>
                     </div>
                 </div>
                 <div className="container-name">
@@ -49,7 +49,7 @@ const Landing = () => {
                     <svg className="left-angle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
                         <path d="M192 448c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L77.25 256l137.4 137.4c12.5 12.5 12.5 32.75 0 45.25C208.4 444.9 200.2 448 192 448z"/>
                     </svg>
-                    <h1 className="projects-title">Projects</h1>
+                    <a href='#projects' className="projects-title">Projects</a>
                     <svg className="right-angle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
                         <path d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"/>
                     </svg>

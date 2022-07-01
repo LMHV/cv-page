@@ -2,7 +2,7 @@ body {
     background-color: #1B1A29;
     margin: auto;
     font-family: Shippori Antique B1;
-    
+    scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
